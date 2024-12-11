@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #800080; /* Cor roxa */
     color: white;
     padding: 1em;
     text-align: center;
@@ -26,7 +26,7 @@ form {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #800080; /* Cor roxa */
     color: white;
     border: none;
     padding: 0.5em;
@@ -35,20 +35,20 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #9932CC; /* Tom mais claro de roxo */
 }
 
 #resultados {
     margin-top: 1em;
     padding: 1em;
-    background-color: #e7f3e7;
+    background-color: #e7e0ec; /* Tom suave de roxo */
     border-radius: 8px;
 }
 
 footer {
     text-align: center;
     padding: 1em;
-    background-color: #4CAF50;
+    background-color: #800080; /* Cor roxa */
     color: white;
     position: fixed;
     width: 100%;
