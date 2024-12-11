@@ -19,6 +19,32 @@ main {
     border-radius: 8px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resultados {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #e7f3e7;
+    border-radius: 8px;
+}
+
 footer {
     text-align: center;
     padding: 1em;

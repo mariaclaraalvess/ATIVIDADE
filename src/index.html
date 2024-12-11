@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página</title>
+    <title>Lista de Números</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bem-vindo à Minha Página</h1>
+        <h1>Bem-vindo à Lista de Números</h1>
     </header>
     <main>
-        <p>Este é um exemplo de página HTML com uma folha de estilo CSS.</p>
+        <form id="numero-form">
+            <label for="numeros">Digite uma lista de números inteiros separados por espaço:</label>
+            <input type="text" id="numeros" name="numeros" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="resultados"></div>
     </main>
     <footer>
-        <p>&copy; 2024 Minha Página</p>
+        <p>&copy; 2024 Lista de Números</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
